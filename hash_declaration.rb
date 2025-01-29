@@ -27,8 +27,6 @@ puts "looping thorough hash"
 H.each do |key, value|
   puts "#{key}: #{value}"
 end
-
-
 puts "Key: a, Value: #{H["a"]}"
 
 
